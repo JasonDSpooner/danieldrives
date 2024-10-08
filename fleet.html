@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DKRubin Professional Driver Service</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #2C3E50;
+            background-color: #E0F7FA;
+        }
+        header {
+            background: linear-gradient(to right, #00B8D4, #0091EA);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            overflow: hidden;
+        }
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path d="M25,0 Q50,25 25,50 Q0,25 25,0 Z" fill="%23FFFFFF22"/></svg>') repeat;
+            opacity: 0.1;
+            z-index: 0;
+        }
+        header h1, header p {
+            position: relative;
+            z-index: 1;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        nav {
+            background-color: #00897B;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #FFD54F;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #FF6F00;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+        }
+        .cta-button:hover {
+            background-color: #F57C00;
+        }
+        footer {
+            background-color: #006064;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            margin-top: 20px;
+        }
+        h2, h3 {
+            color: #006064;
+        }
+        .service-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .service-list li {
+            padding: 10px;
+            background-color: #E0F7FA;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .service-list li::before {
+            content: "🌴";
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DKRubin Professional Driver Service</h1>
+        <p>Your Tropical Getaway on Wheels in Alberta</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="fleet.html">Fleet</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Our Island-Inspired Fleet</h2>
+        <p>Experience the perfect blend of tropical luxury and Alberta practicality with our diverse fleet:</p>
+        <div class="fleet-list">
+            <div class="fleet-item">
+                <h3>The Islander Sedan</h3>
+                <img src="./px/whitesedan.jpg" alt="Luxury Sedan">
+                <p>Our comfortable sedan, perfect for city trips and airport transfers. Enjoy the smooth ride with a touch of island flair.</p>
+            </div>
+            <div class="fleet-item">
+                <h3>Tropical SUV</h3>
+                <img src="./px/crv.png" alt="Luxury SUV">
+                <p>Spacious and versatile, our SUV is ideal for group travel or when you need extra room for luggage.</p>
+            </div>
+            <div class="fleet-item">
+                <h3>Paradise Limo</h3>
+                <img src="./px/whitelimo.jpg" alt="Stretch Limousine">
+                <p>Make a grand entrance with our stretch limousine. Perfect for weddings, proms, or a night out on the town.</p>
+            </div>
+            <div class="fleet-item">
+                <h3>Beachcomber Van</h3>
+                <img src="./px/040.jpg" alt="Passenger Van">
+                <p>Ideal for larger groups or tours, our passenger van offers comfort and space for up to 12 passengers.</p>
+            </div>
+        </div>
+        <a href="contact.html" class="cta-button">Reserve Your Tropical Ride</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 DKRubin Professional Driver Service. All rights reserved. Aloha!</p>
+    </footer>
+</body>
+</html>
